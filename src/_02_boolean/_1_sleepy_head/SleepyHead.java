@@ -1,6 +1,6 @@
 package _02_boolean._1_sleepy_head;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;k
 import org.jointheleague.graphical.robot.Robot;
 
 public class SleepyHead {
@@ -12,7 +12,7 @@ public class SleepyHead {
 		/************************  SLEEPY HEAD  **************************/
 		boolean isWeekend;
 		// Write code to ask the user what day it is.
-        
+        string day = JOptionPane.showInputDialog("what day is it?");
 		// Set the boolean isWeekend based on the value they enter
 		
 		
