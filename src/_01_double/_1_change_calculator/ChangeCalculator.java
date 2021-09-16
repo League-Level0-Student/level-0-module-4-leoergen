@@ -27,7 +27,7 @@ int penn = Integer.parseInt(penni);
 		// Calculate how much money the user has.  Hint: Use a double variable 
 double change = 0.05*nik + 0.10*dim + 0.25*quar + 0.01*penn;
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
-
+JOptionPane.showMessageDialog(null, change);
 	}
 }
 
