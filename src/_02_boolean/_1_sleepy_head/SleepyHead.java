@@ -27,15 +27,15 @@ public class SleepyHead {
 		boolean passedExam;
 		// Write code to ask the user what percentage they scored in their last exam
 String grade = JOptionPane.showInputDialog("whats was the grade you got in your last exam?");
-		
+		int score = Integer.parseInt(grade);
 		// If they scored more than 70, they passed the exam.
-if(grade =)
+passedExam=score >= 70;
 		// Set the boolean passedExam based on their score.
 		
 		// If the user passed the exam, congratulate them
-		
+		if(passedExam) {JOptionPane.showMessageDialog(null,"Congrats!" );}
 		// otherwise, wish them better luck next time.
-		
+		else {JOptionPane.showMessageDialog(null, "better luck nextime");}
 		
 		/************************  GAME OVER  **************************/
 
