@@ -57,13 +57,14 @@ passedExam=score >= 70;
 		
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
-		
+		JOptionPane.showInputDialog("What colo(u)r should we draw with?");
 		
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
-		
+		JOptionPane.showInputDialog("what shape should we draw with?");
 		
 		// Now you MUST use the && operator to join the booleans for this code. 
+		&&
 		// Ask your teacher if you are not sure how
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
